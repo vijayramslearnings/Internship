@@ -1,7 +1,6 @@
 import numpy as np
 #for entering the array
 def get_matrix_input(name):
-    """Prompts user for matrix dimensions and elements."""
     print(f"\n--- Input Matrix {name} ---")
     rows = int(input(f"Enter number of rows for {name}: "))
     cols = int(input(f"Enter number of columns for {name}: "))
